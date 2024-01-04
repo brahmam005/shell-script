@@ -6,4 +6,4 @@ echo "First value: ${FRUITS[0]}"
 
 echo "Second value: ${FRUIT[1]}"
 
-echo "Third value: ${FRUIT[3]}"
+echo "Third value: ${FRUIT[2]}"
