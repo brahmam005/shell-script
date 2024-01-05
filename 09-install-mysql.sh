@@ -11,3 +11,11 @@ else
 fi # fi means reverse of if, indicating condiction end
 
 yum install mysql -y
+
+if [ $? -ne 0 ]
+then
+   echo "ERROR:: Installing MySQL is failed"
+   exit 1
+else
+   echo "Installing MySQL is success"
+fi       
